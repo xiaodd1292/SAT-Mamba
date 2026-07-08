@@ -50,12 +50,19 @@ Change '/root/data/.cache/models/mambar_small_patch16_224.pth' to your own pre-t
 python continual_main.py \
   --gpus 0 \
   --exp sat_mamba_order1 \
-  --dataroot /home/ydx/data \
+  --dataroot your/path/dataroot \
   --dataset CMshipReID,VesslReID \
   --unseen_dataset Warships-ReID,Sub-MARVEL
 ```
-
-
+### Order 1: VesselReID → CMshipReID
+```bash
+python continual_main.py \
+  --gpus 0 \
+  --exp sat_mamba_order2 \
+  --dataroot your/path/dataroot \
+  --dataset VesslReID,CMshipReID \
+  --unseen_dataset Warships-ReID,Sub-MARVEL
+```
 ```
 
 
