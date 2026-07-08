@@ -54,7 +54,7 @@ python continual_main.py \
   --dataset CMshipReID,VesslReID \
   --unseen_dataset Warships-ReID,Sub-MARVEL
 ```
-### Order 1: VesselReID → CMshipReID
+### Order 2: VesselReID → CMshipReID
 ```bash
 python continual_main.py \
   --gpus 0 \
