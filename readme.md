@@ -63,7 +63,6 @@ python continual_main.py \
   --dataset VesslReID,CMshipReID \
   --unseen_dataset Warships-ReID,Sub-MARVEL
 ```
-```
 
 
 
